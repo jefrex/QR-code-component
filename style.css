@@ -1,0 +1,75 @@
+/* Font used in project: 
+
+Weights: 400, 700
+font-family: 'Outfit', sans-serif; 
+
+Colors:
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+*/
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif; 
+}
+
+#card {
+    width: 300px;
+    height: 500px;
+    padding: 15px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 22px;
+    text-align: center;
+}
+
+#cardImage {
+    margin-bottom: 20px;    
+}
+
+#cardImage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#cardDescription {
+    width: 250px;
+    margin: 0 auto;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+
+
+#p1 {
+    font-size: 1.35em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#p2 {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 450px) {
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 60%, 45%); }
+}
